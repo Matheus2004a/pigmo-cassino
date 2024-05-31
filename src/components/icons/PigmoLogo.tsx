@@ -6,8 +6,8 @@ export function PigmoLogo({ className }: { className?: string }) {
       </g>
       <defs>
         <linearGradient id="paint0_linear_1_6363" x1="0" y1="11.9992" x2="100.009" y2="11.9992" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#E90083" />
-          <stop offset="1" stop-color="#FF6864" />
+          <stop stopColor="#E90083" />
+          <stop offset="1" stopColor="#FF6864" />
         </linearGradient>
         <clipPath id="clip0_1_6363">
           <rect width="100" height="24" fill="white" />

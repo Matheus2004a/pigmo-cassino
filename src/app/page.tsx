@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Welcome />
 
-      <main className="grid justify-center bg-elevation-1 py-4 px-8 gap-12">
-        <Welcome />
+      <main className="grid justify-center bg-elevation-1 gap-14 py-12">
         <Criptomoney />
         <Casino />
         <Sports />

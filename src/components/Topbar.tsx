@@ -1,29 +1,20 @@
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
 import { HeartIcon } from "./icons/HeartIcon"
+import { MedIcon } from "./icons/MedIcon"
+import { TrophIcon } from "./icons/TrophIcon"
 
 export function Topbar() {
   return (
-    <div className="max-w-[240px] w-full flex justify-center gap-2 border border-elevation-3 rounded-xl p-1">
-      <Button className="rounded-lg">
+    <div className="flex gap-2 border border-low-contrast rounded-xl p-1 mx-5">
+      <Button className="bg-gradient-to-r from-gradient-start to-gradient-end rounded-lg uppercase font-bold">
         <HeartIcon />
-        Cassino
+        Casino
       </Button>
-      <Button className="rounded-lg">
-        <Image
-          src="/assets/svg/troph.svg"
-          alt="icon-troph"
-          width={28}
-          height={20}
-        />
+      <Button className="rounded-lg bg-transparent hover:bg-transparent px-2">
+        <TrophIcon className="text-low-contrast" />
       </Button>
-      <Button className="rounded-lg">
-        <Image
-          src="/assets/svg/med.svg"
-          alt="icon-med"
-          width={28}
-          height={20}
-        />
+      <Button className="rounded-lg bg-transparent hover:bg-transparent px-2">
+        <MedIcon className="text-low-contrast" />
       </Button>
     </div>
   )

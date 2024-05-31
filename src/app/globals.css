@@ -74,8 +74,24 @@
     @apply bg-background text-foreground;
   }
 
+  footer ul li {
+    @apply mt-4;
+  }
+
   ul li:hover {
-    @apply text-lime-600;
     @apply cursor-pointer;
+    @apply text-primary;
+    @apply transition-colors duration-500;
+  }
+
+  .card-sports:hover {
+    @apply cursor-pointer;
+    @apply bg-gradient-to-r from-gradient-start to-gradient-end;
+    @layer box-shadow: 0px 8px 40.2px 1px #ff5da147;
+    @layer box-shadow: 0px 15px 13.7px -11px #ff579963;
+  }
+
+  [data-state="open"] .accordion-text {
+    color: red;
   }
 }

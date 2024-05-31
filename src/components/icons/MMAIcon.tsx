@@ -6,8 +6,8 @@ export function MMAIcon({ className }: { className?: string }) {
       </g>
       <defs>
         <linearGradient id="paint0_linear_1_6442" x1="24.7051" y1="0.787521" x2="24.7051" y2="40.2125" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#FF6864" />
-          <stop offset="1" stopColor="#E90083" />
+          <stop stopColor="currentColor" />
+          <stop offset="1" stopColor="currentColor" />
         </linearGradient>
         <clipPath id="clip0_1_6442">
           <rect width="50" height="39.425" fill="currentColor" transform="translate(0 0.787521)" />

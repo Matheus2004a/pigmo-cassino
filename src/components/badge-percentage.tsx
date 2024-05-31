@@ -4,7 +4,7 @@ import { ArrowDownLeft, ArrowUpRight } from "lucide-react";
 export function BadgePercentage({ className, direction }: { className?: string, direction?: "up" | "down" }) {
   return (
     <span className={cn(
-      "flex items-center rounded border",
+      "flex items-center rounded border-2 text-sm px-1",
       direction === "up" ? "text-success border-success shadow-custom-green" : "text-red-500 border-red-500 shadow-custom-red",
       className
       )}>

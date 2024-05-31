@@ -1,7 +1,13 @@
 import { BoxeIcon } from "@/components/icons/BoxeIcon";
+import { CasinoIcon } from "@/components/icons/CasinoIcon";
+import { DadoIcon } from "@/components/icons/DadoIcon";
+import { GiftIcon } from "@/components/icons/GiftIcon";
 import { GolfIcon } from "@/components/icons/GolfIcon";
 import { MMAIcon } from "@/components/icons/MMAIcon";
+import { PigmoIcon } from "@/components/icons/PigmoIcon";
 import { RaquetIcon } from "@/components/icons/RaquetIcon";
+import { RoletaIcon } from "@/components/icons/RoletaIcon";
+import { SevenIcon } from "@/components/icons/SevenIcon";
 import { SinuqueIcon } from "@/components/icons/SinuqueIcon";
 import { VoleyBallIcon } from "@/components/icons/VoleyBallIcon";
 
@@ -80,26 +86,26 @@ export const cardsSport = [
 export const typeCasino = [
   {
     title: "Originais",
-    icon: "/assets/svg/pigmo.svg",
+    icon: PigmoIcon,
   },
   {
     title: "Caça-Níqueis",
-    icon: "/assets/svg/seven.svg",
+    icon: SevenIcon,
   },
   {
     title: "Cassino Ao Vivo",
-    icon: "/assets/svg/casino.svg",
+    icon: CasinoIcon,
   },
   {
     title: "Lançamentos",
-    icon: "/assets/svg/gift.svg",
+    icon: GiftIcon,
   },
   {
     title: "Jogos de Mesa",
-    icon: "/assets/svg/dado.svg",
+    icon: DadoIcon,
   },
   {
     title: "Roleta",
-    icon: "/assets/svg/roleta.svg",
+    icon: RoletaIcon,
   }
 ]

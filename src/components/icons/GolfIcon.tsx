@@ -6,8 +6,8 @@ export function GolfIcon({ className }: { className?: string }) {
       </g>
       <defs>
         <linearGradient id="paint0_linear_1_6434" x1="20.3333" y1="0.5" x2="20.3333" y2="40.5" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#FF6864" />
-          <stop offset="1" stopColor="#E90083" />
+          <stop stopColor="currentColor" />
+          <stop offset="1" stopColor="currentColor" />
         </linearGradient>
         <clipPath id="clip0_1_6434">
           <rect width="40" height="40" fill="currentColor" transform="translate(0.333344 0.5)" />

@@ -1,11 +1,12 @@
 import { Card } from "@/components/Card";
+import { ArrowLeftIcon } from "@/components/icons/ArrowLeftIcon";
+import { ArrowRightIcon } from "@/components/icons/ArrowRightIcon";
 import { HeartIcon } from "@/components/icons/HeartIcon";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export function Criptomoney() {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4 mt-10">
       <div className="flex items-center gap-24 text-white uppercase">
         <div className="flex items-center gap-1">
           <HeartIcon className="text-primary" />
@@ -16,9 +17,9 @@ export function Criptomoney() {
           <span>Total 24h volume:</span>
           <span className="text-success">$2.27B</span>
           <Badge className="ml-4 rounded-lg mr-2 text-sm font-bold">Trade</Badge>
-          
-          <ArrowLeft />
-          <ArrowRight />
+
+          <ArrowLeftIcon />
+          <ArrowRightIcon />
         </div>
       </div>
 

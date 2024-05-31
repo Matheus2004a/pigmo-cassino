@@ -81,6 +81,7 @@ const config = {
         'custom-discord': '0px 11px 26.8px 0px #E900833D',
         'custom-telegram': '0px 11px 26.8px 0px #2CA5D612',
         'custom-x': '0px 11px 26.8px 0px #2A1A2F4A',
+        'custom-banner': '0px -3px 0px 0px #170D1980 inset',
       },
       keyframes: {
         "accordion-down": {

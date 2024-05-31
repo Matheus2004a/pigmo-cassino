@@ -1,6 +1,7 @@
+import { ArrowLeftIcon } from "@/components/icons/ArrowLeftIcon";
+import { ArrowRightIcon } from "@/components/icons/ArrowRightIcon";
 import { SevenIcon } from "@/components/icons/SevenIcon";
 import { imagesCasino } from "@/lib/data";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export function Casino() {
@@ -11,8 +12,8 @@ export function Casino() {
           <SevenIcon className="text-primary" />
           <h2 className="font-bold mr-2">Cassino</h2>
 
-          <ArrowLeft />
-          <ArrowRight />
+          <ArrowLeftIcon />
+          <ArrowRightIcon />
         </div>
       </div>
 

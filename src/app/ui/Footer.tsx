@@ -7,14 +7,14 @@ import { Mail } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="grid bg-elevation-1">
-      <div className="grid items-center justify-center p-6">
-        <article className="flex items-center justify-between">
+    <footer className="grid">
+      <div className="grid items-center justify-center px-6 py-12 border-t border-t-low-contrast gap-10 bg-black">
+        <article className="flex items-center justify-between gap-14">
           <section className="flex items-center gap-10">
             <PigmoBrandIcon className="text-white min-w-[150px] min-h-[150px]" />
 
             <figure className="flex items-center">
-              <PigmoEyeIcon />
+              <PigmoEyeIcon className="mr-4" />
               <figcaption>
                 <h3 className="uppercase text-low-contrast tracking-[30px]">
                   Beyond <strong className="text-white">Luck</strong>
@@ -80,7 +80,7 @@ export function Footer() {
         </section>
       </div>
 
-      <div className="flex justify-evenly items-center p-6 border-t border-t-low-contrast">
+      <div className="flex justify-evenly items-center p-6 border-t border-t-low-contrast bg-elevation-1">
         <p className="text-low-contrast">
           <strong className="text-white">@2024 Pigmo</strong> - All rights reserved. Pigmo is licensed and authorized, operating under the Game Service Provider Master License.
         </p>

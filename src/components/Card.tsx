@@ -10,7 +10,7 @@ export function Card({ direction }: { direction: "up" | "down" }) {
           <BitcoinIcon />
           <span className="text-white">BTC</span>
         </div>
-        <BadgePercentage className="ml-8" direction={direction} />
+        <BadgePercentage className="ml-8 border-2" direction={direction} />
       </CardHeader>
       <CardContent className="flex items-center border-y border-t-low-contrast border-b-low-contrast">
         <span className="text-lg font-semibold">$ 60,390.85</span>

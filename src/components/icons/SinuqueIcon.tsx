@@ -6,8 +6,8 @@ export function SinuqueIcon({ className }: { className?: string }) {
       </g>
       <defs>
         <linearGradient id="paint0_linear_1_6450" x1="25.9984" y1="-1.5" x2="25.9984" y2="42.304" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#FF6864" />
-          <stop offset="1" stopColor="#E90083" />
+          <stop stopColor="currentColor" />
+          <stop offset="1" stopColor="currentColor" />
         </linearGradient>
         <clipPath id="clip0_1_6450">
           <rect width="50" height="40" fill="currentColor" transform="translate(0.666687 0.5)" />
